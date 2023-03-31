@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-ant-2.0.0-mr1-cdh4.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-common-2.0.0-cdh4.4.0.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-common-2.0.0-cdh4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-common-2.0.0-cdh4.4.0-tests.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-common-2.0.0-cdh4.4.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-core-2.0.0-mr1-cdh4.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-examples-2.0.0-mr1-cdh4.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-hdfs-2.0.0-cdh4.4.0.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-hdfs-2.0.0-cdh4.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-hdfs-2.0.0-cdh4.4.0-tests.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-hdfs-2.0.0-cdh4.4.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-test-2.0.0-mr1-cdh4.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hadoop-tools-2.0.0-mr1-cdh4.2.0.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/hive-exec-0.10.0-cdh4.4.0.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/hadoop_java_jars/pig-0.11.0-cdh4.4.0.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/jcommon-1.0.23/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/jcommon-1.0.23/jcommon-xml-1.0.23.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/commons-csv-1.10.0/commons-csv-1.10.0.jar"/>
+	<classpathentry kind="lib" path="/home/training/Desktop/commons-csv-1.10.0/commons-csv-1.10.0-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
