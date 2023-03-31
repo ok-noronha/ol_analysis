@@ -16,7 +16,8 @@ public class ReadingTrendReducer extends Reducer<Text, IntWritable, Text, IntWri
       count += value.get();
     }
 
-    // Emitting the year and category as the output key, and the count as the output value
+    // Emitting the year and category as the output key, and the count as the output
+    // value
     outputValue.set(count);
     context.write(key, outputValue);
   }

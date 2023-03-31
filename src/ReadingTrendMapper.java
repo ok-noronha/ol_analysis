@@ -11,14 +11,13 @@ public class ReadingTrendMapper extends Mapper<LongWritable, Text, Text, IntWrit
 
   public void map(LongWritable key, Text value, Context context)
       throws IOException, InterruptedException {
-	  
+
     String[] recordFields = value.toString().split("[\\t]");
     String datePublished = "";
-    try{
-    	datePublished = recordFields[1];
-    }
-    catch(Exception e){
-    	
+    try {
+      datePublished = recordFields[1];
+    } catch (Exception e) {
+
     }
     String year = "";
     if (!datePublished.isEmpty()) {

@@ -38,7 +38,7 @@ public class LineGraph {
 
         // Convert data points into XYSeriesCollection
         XYSeries series = new XYSeries("" +
-        		"publications per year");
+                "publications per year");
         for (int i = 0; i < xData.size(); i++) {
             series.add(xData.get(i), yData.get(i));
         }
@@ -54,8 +54,8 @@ public class LineGraph {
         FSDataOutputStream out = fs.create(outFile);
         try {
             ChartUtilities.writeChartAsPNG(out, chart, 800, 600);
-        }catch (Exception e){
-        	
+        } catch (Exception e) {
+
         }
         out.close();
         fs.close();

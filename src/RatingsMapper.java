@@ -17,21 +17,19 @@ public class RatingsMapper extends Mapper<LongWritable, Text, Text, IntWritable>
 
         // Extracting the year and category fields
         try {
-        	work = recordFields[0].substring(7);
-        }
-        catch (Exception e) {
-        	work = "";
+            work = recordFields[0].substring(7);
+        } catch (Exception e) {
+            work = "";
         }
         try {
             rating = Integer.parseInt(recordFields[2]);
-        }
-        catch (Exception e){    	
+        } catch (Exception e) {
             rating = -1;
         }
-        if (work != "" && rating != -1){
-        	outputKey = new Text(work);
-        	outputVal = new IntWritable(rating);     
-        	context.write(outputKey, outputVal);
+        if (work != "" && rating != -1) {
+            outputKey = new Text(work);
+            outputVal = new IntWritable(rating);
+            context.write(outputKey, outputVal);
         }
     }
 }
